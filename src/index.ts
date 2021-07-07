@@ -1,10 +1,10 @@
 import { BinanceClient } from "./binanceClient";
-
-const APIKEY = "aaa";
-const APISECRET = "bbb";
+import "./env";
 
 const main = async () => {
-  const binance = new BinanceClient(APIKEY, APISECRET);
+  // TODO: Get rid of this ts-ignore
+  // @ts-ignore
+  const binance = new BinanceClient(process.env.APIKEY, process.env.APISECRET);
   console.log(await binance.systemStatus());
 };
 

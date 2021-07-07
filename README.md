@@ -1,11 +1,9 @@
 # Short shorts
 
-What you will see here is small project that will help me in my scalping on Binance
+What you will see here is small project that will help me in my scalping on Binance and refresh TS knowledge
 
-## milestone 0: create long / short order and display OCO values
+## 0: create long / short order and display OCO values
 
-- write binance hello world
-- add configuration Use https://github.com/davidtheclark/cosmiconfig
 - sign request to binance
 - add getting open orders on spot / margin
 - add parsing command line https://github.com/yargs/yargs-parser
@@ -14,7 +12,11 @@ What you will see here is small project that will help me in my scalping on Bina
 - write some tests
 - add check for volume and trading frequency to not buy
 
-## milestone 1: follow current price and adjust stop loss orders
+## 1: follow current price and adjust stop loss orders
 
 - get prices in loop
 - will get there
+
+## 2: put in on the web
+
+- full web interface security and stuff
